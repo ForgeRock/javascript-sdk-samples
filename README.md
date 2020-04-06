@@ -14,19 +14,21 @@ You will also need to configure OAuth 2.0 and authentication trees that will be 
 - [OAuth 2.0 provider and client](setup/oauth.md)
 - [Authentication trees](setup/auth-trees.md)
 
-## Sample Apps
+## Samples
 
-Samples are provided as individual, self-contained projects.
+Samples are provided as individual, self-contained projects.  They are intended to illustrate specific usage scenarios or integration concerns as succinctly as possible. Unless stated otherwise, they should not be considered reference implementations for production.
 
-- [Ready-to-use UI](samples/ready-to-use-ui/README.md)  
-  Use the SDK's UI for the lowest-effort integration
-- [Custom UI in React](samples/custom-ui-react/README.md)  
-  Take control of the user experience with a custom React application
-- [Older browser support](samples/polyfills/README.md)  
-  Add support for IE11 using polyfills
-- [Transactional authorization](samples/trans-auth/README.md) (coming soon)  
-  Reduce friction using "step-up" authorization for specific operations
-  
+[Ready-to-use UI](samples/ready-to-use-ui/README.md)  
+Use the SDK's UI for the lowest-effort integration
+
+[Custom UI in React](samples/custom-ui-react/README.md)  
+Take control of the user experience with a custom React application
+
+[Older browser support](samples/polyfills/README.md)  
+Add support for IE11 using polyfills
+
+[Transactional authorization](samples/trans-auth/README.md) (coming soon)  
+Reduce friction using "step-up" authorization for specific operations
 
 ## References
 
