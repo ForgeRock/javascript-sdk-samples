@@ -1,0 +1,42 @@
+body {
+  padding: 5rem;
+}
+
+a {
+  color: #090;
+}
+
+#fr-ui {
+  max-width: 400px;
+}
+
+.form-control,
+.form-control:focus {
+  border-color: #090;
+  border-width: 3px;
+}
+
+.form-control:focus {
+  border-color: #090;
+  border-width: 3px;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 0, 0.25);
+}
+
+.btn-primary,
+.btn-primary:disabled,
+.btn-primary.disabled,
+.btn-primary:focus,
+.btn-primary.focus {
+  background-color: #090;
+  border-color: #060;
+  border-width: 3px;
+}
+
+.btn-primary:focus,
+.btn-primary.focus {
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 0, 0.25);
+}
+
+.btn-primary:disabled {
+  opacity: 0.5;
+}

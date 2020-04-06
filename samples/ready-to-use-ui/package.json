@@ -1,0 +1,24 @@
+{
+  "name": "ready-to-use-ui",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "npm-run-all --parallel build serve",
+    "start:watch": "npm-run-all --parallel build:watch serve",
+    "build": "webpack",
+    "build:watch": "webpack --env.WATCH=true",
+    "serve": "http-server . -c1 -p 9443 --ssl --cert ../../certs/forgerock-sdk.crt --key ../../certs/forgerock-sdk.key"
+  },
+  "devDependencies": {
+    "cpy-cli": "^3.0.0",
+    "dotenv": "^8.2.0",
+    "http-server": "^0.11.1",
+    "npm-run-all": "^4.1.5",
+    "string-replace-loader": "^2.2.0",
+    "webpack": "^4.40.2",
+    "webpack-cli": "^3.3.9"
+  },
+  "dependencies": {
+    "@forgerock/javascript-sdk-ui": "^1.0.2"
+  }
+}
