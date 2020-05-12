@@ -16,7 +16,7 @@ To simplify configuration of your ForgeRock AM environment, the trees used by th
   -f <path_to_this_repo>/trees/<tree_name>.json
 
 # Example to import the BasicLogin tree
-./amtree.sh -h https://my.domain.com/am \
+./amtree.sh -h https://default.iam.example.com/am \
   -u amadmin -p password -i BasicLogin \
   -f ~/repos/javascript-sdk-samples/trees/BasicLogin.json
 ```

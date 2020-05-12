@@ -21,4 +21,4 @@ npm i
 npm start
 ```
 
-Open https://forgerock-sdk.local:9443 in your browser.
+Open https://app.example.com:9443 in your browser.
